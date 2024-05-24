@@ -56,7 +56,7 @@ This dashboard provides several features for analyzing stock performance and por
 
   - Change the number of maximum stocks accordingly: max_stocks <- 10. 
 
-  2.1.2 Select Date Range: Define the date range for your analysis, at least 90 days for a meaningful analysis. Selecting an invalid date range, such as a start date after the end date, will give a warning. This is done for the sake of code robustness. 
+  2.1.2 Select Date Range: Define the date range for your analysis, at least 90 days for a meaningful analysis. Selecting an invalid date range, such as a start date after the end date, will give a warning. This is done for the sake of code robustness. The code also ensures robustness in case of other invalid inputs, for example, if either the start date or end date is chosen to be in the future.
 
   2.1.3 Tabs: Navigate through different tabs for various analyses and visualizations, which are
   
