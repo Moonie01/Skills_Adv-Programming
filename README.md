@@ -27,7 +27,7 @@ Follow these steps to set up and run the Portfolio Analysis Dashboard locally.
 
 Ensure you have R and RStudio installed on your machine. You also need to install the following R packages if not already installed:
   
-      install.packages(c("shiny", "shinydashboard", "shinydashboardPlus", "shinyFeedback", "quantmod", "dplyr", "DT", "ggplot2",   "PerformanceAnalytics", "tidyquant", "RColorBrewer", "tseries", "ggcorrplot"))
+      install.packages(c("shiny", "shinydashboard", "shinydashboardPlus", "shinyFeedback", "quantmod", "dplyr", "DT", "ggplot2",   "PerformanceAnalytics", "tidyquant", "RColorBrewer", "tseries", "ggcorrplot", "shinyjs"))
 
 **1.2 Cloning the repo**
 
@@ -68,7 +68,7 @@ This dashboard provides several features for analyzing stock performance and por
 
   - Summary Statistics: Detailed statistics of stock prices and returns.
 
-  - Stock Analysis: In-depth analysis of individual stocks, including performance and correlation matrices.
+  - Stock Analysis: In-depth analysis of individual stocks, including performance and correlation matrices. Number of stocks is capped at the number of stocks in the current portfolio.
   
   - Risk Metrics: Summary of main risk measures for the portfolio, including annualized volatility, variance, standard deviation and Sharpe Ratio.
   
