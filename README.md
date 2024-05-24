@@ -70,7 +70,7 @@ This dashboard provides several features for analyzing stock performance and por
 
   - Stock Analysis: In-depth analysis of individual stocks, including performance and correlation matrices.
   
-  - Risk Metrics: Summary of main risk measures for the portfolio, inclusing annualized volatility, variance, standard deviation and Sharpe Ratio.
+  - Risk Metrics: Summary of main risk measures for the portfolio, including annualized volatility, variance, standard deviation and Sharpe Ratio.
   
   - Monte Carlo Simulation: Monte Carlo simulation of stocks and portfolio price dynamics.
 
