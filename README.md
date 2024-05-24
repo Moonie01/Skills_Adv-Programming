@@ -35,8 +35,9 @@ git clone <https://github.com/Moonie01/Skills_Adv-Programming/> cd Skills_Adv-Pr
 
 **1.3 Running in RStudio**
 
-Open the app.R file in RStudio and click on the "Run App" button or use the following code in the R console:
-  
+First, ensure you have a working internet connection.
+Second, open the app.R file in RStudio and click on the "Run App" button or use the following code in the R console:
+
   shiny::runApp("app.R")
 
 --------------------------------------------------------------------------------
