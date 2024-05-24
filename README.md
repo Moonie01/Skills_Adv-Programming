@@ -76,15 +76,15 @@ This dashboard provides several features for analyzing stock performance and por
 
 2.2 Key Features
 
-  - Executive Summary: View key performance indicators such as lowest return, highest volume, highest price, and portfolio Sharpe ratio.
+  - Executive Summary: View key performance indicators such as lowest return, highest volume, highest price, and portfolio Sharpe Ratio.
   
-  - Portfolio Composition: Use interactive sliders to adjust stock weights and visualize the composition with a pie chart.
+  - Portfolio Composition: Use interactive sliders to adjust stock weights and visualize the composition with a pie chart. The sliders let the user decide the size of the investment in one specific stock. The absolute investment is then automaticallz converted into normalized portfolio weights of the selected stocks.
   
   - Summary Statistics: Examine detailed statistics of prices and returns.
   
   - Stock Analysis: Analyze historical stock prices, log-returns, and correlations among selected stocks.
   
-  - Risk Metrics: Analyze annualized standard deviation, variance, and Sharpe ratio. Visualize annualized volatility in a plot with a rolling window of 1 month. 
+  - Risk Metrics: Analyze annualized standard deviation, variance, and Sharpe Ratio. Visualize annualized volatility in a plot with a rolling window of 1 month. 
   
   - Monte Carlo Simulation: Allows to simulate the stocks' and portfolio's performance in a unique Monte Carlo setting.
 
@@ -98,7 +98,7 @@ The following section will summarise the methods used in the Monte Carlo simulat
 
 Let's first introduce the model used to simulate stock price dynamics: the geometric Brownian motion. The simulated prices paths follows the following formula (stochastic differential equation and its analytic solution, respectively):
 
-  (i) $dS_t = \mu S_t \, dt + \sigma S_t \, dB_t$,
+  (i) $dS_t = \mu S_t \ dt + \sigma S_t \ dB_t$,
 
   (ii) $S_t = S_0 e^{(\mu - \frac{1}{2} \sigma^2)t + \sigma B_t} > 0$,
 
